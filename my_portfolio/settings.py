@@ -27,7 +27,10 @@ SECRET_KEY = '*%wtu1!+cvilt1bjmh*)d4dv6lw$0_d_=$f6sjgb%nl3*vz88h'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'chika-jinanwa.herokuapp.com',
+    '127.0.0.1'
+]
 
 
 # Application definition
